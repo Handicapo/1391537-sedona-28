@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Некрасов](https://up.htmlacademy.ru/htmlcss/28/user/1391537).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
