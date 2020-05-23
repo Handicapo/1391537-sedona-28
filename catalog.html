@@ -20,7 +20,57 @@
       <h1>Выбор гостиницы</h1>
       <section>
           <h2>Выбор гостиниц</h2>
-          <!-- Здесь будет форма фильтра -->
+          <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>
+                <label for="filter_swimming_pool">Бассейн</label>
+                <input type="checkbox" name="swimming_pool" id="filter_swimming_pool" checked>
+              </li>
+              <li>
+                <label for="filter_parking">Парковка</label>
+                <input type="checkbox" name="parking" id="filter_parking">
+              </li>
+              <li>
+                <label for="filter_wifi">Wi-Fi</label>
+                <input type="checkbox" name="wifi" id="filter_wifi">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <label for="filter_hotel">Гостиница</label>
+              <input type="checkbox" name="hotel" id="filter_hotel" checked>
+            </li>
+            <li>
+              <label for="filter_motel">Мотель</label>
+              <input type="checkbox" name="motel" id="filter_motel" checked>
+            </li>
+            <li>
+              <label for="filter_apart">Апартамаенты</label>
+              <input type="checkbox" name="apart" id="filter_apart" checked>
+            </li>
+            </ul>
+          </fieldset>
+          <div>
+            <p>Стоимость в сутки (р):</p>
+            <p>
+              <label for="min"></label>
+              <input id="min" type="text" name="min_value" placeholder="От 0">
+            </p>
+            <p>
+              <label for="max"></label>
+              <input id="max" type="text" name="max_value" placeholder="До 3000">
+            </p>
+            <div>
+              <input type="range" name="cost" min="1" max="3000" step="100">
+            </div>
+          </div>
+            <button type="submit">Показать</button>
+        </form>
       </section>
       <section>
         <h2>Список гостиниц</h2>
