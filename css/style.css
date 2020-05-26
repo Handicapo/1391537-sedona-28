@@ -1,6 +1,7 @@
 :root {
   --basic-black:#000000;
   --basic-brown:#766357;
+  --basic-light-black:#333333;
   --basic-light-blue:#81B3D2;
   --basic-gray:#EEEEEE;
   --basic-light-gray:#F2F2F2;
@@ -8,6 +9,7 @@
   --basic-background: #888888;
 }
 
+/* Общие стили */
 body {
   width: 1200px;
   height: 2762px;
@@ -35,6 +37,8 @@ li {
   display: none;
 }
 
+/* Хедер стили */
+
 .main-navigation {
   background-color: var(--basic-white);
 }
@@ -55,4 +59,114 @@ li {
 .main-navigation a:focus {
   color: var(--basic-black);
   opacity: 0.3;
+}
+
+/* welcome-container стили */
+.welcome-container {
+  background-image: url("../img/bg.jpg");
+}
+
+.welcome-container .welcome-container-mask-svg {
+  background-image: url("../img/intro-mask.svg");
+  width: 1200px;
+  height: 57px;
+  left: 40px;
+  top: 508px;
+}
+
+
+/* profit-container стили */
+.profit-container {
+  background-color: var(--basic-white)
+}
+
+.profit-text1 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.profit-text2 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.profit-list-feature1 .feature1, .profit-list-feature2 .feature2 {
+  background-image: url("../img/bg_blu.png");
+  }
+
+.feature1, .feature2 {
+  width: 400px;
+  height: 256px;
+  left: 40px;
+  top: 780px;
+}
+
+.feature1 h3, .feature2 h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--basic-white)
+}
+
+.feature1 p, .feature2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--basic-white)
+}
+
+.feature1-item1, .feature1-item2, .feature1-item3 {
+  width: 400px;
+  height: 330px;
+  left: 40px;
+  top: 1036px;
+}
+
+.feature1-item1 .name-item, .feature1-item2 .name-item, .feature1-item3 .name-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.feature1-item1 p, .feature1-item2 p, .feature1-item3 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--basic-light-black);
+}
+
+.feature2-item1, .feature2-item2, .feature2-item3 {
+  width: 400px;
+  height: 256px;
+  left: 40px;
+  top: 1622px;
+}
+
+.feature2-item1 .name-item, .feature2-item2 .name-item, .feature2-item3 .name-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.feature2-item1 p, .feature2-item2 p, .feature2-item3 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--basic-light-black);
 }
