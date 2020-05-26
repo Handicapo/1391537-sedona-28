@@ -59,6 +59,7 @@
               </li>
             </ul>
           </li>
+
           <li class="profit-list-feature2">
             <img src="img/foto-bridge.jpg" width="800" height="256" alt="Фото моста">
             <div>
@@ -93,30 +94,36 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Поиск гостинницы</h2>
-        <form action="https://echo.htmlacademy.ru" method="post">
+      <section class="hotel-container">
+        <h2 class="visually-hidden">Поиск гостинницы</h2>
+          <p> Заинтересовались?<br>
+          Укажите предполагаемые даты поездки,<br>
+          и мы покажем вам лучшие предложения гостиниц в Седоне
+          </p>
+          <p>Поиск гостиницы в Седоне</p>
+        <form action="https://echo.htmlacademy.ru" method="post" class="search-form">
           <p>
-            <label for="date-in">Дата заезда</label>
-            <input id="date-in" type="text" name="date-in" placeholder="24 апреля 2017">
+            <label class="search-form-item" for="date-in">Дата заезда</label>
+            <input class="search-form-field" id="date-in" type="text" name="date-in" placeholder="24 апреля 2017">
           </p>
           <p>
-            <label for="date-out">Дата выезда</label>
-            <input id="date-out" type="text" name="date-out" placeholder="4 июля 2017">
+            <label class="search-form-item" for="date-out">Дата выезда</label>
+            <input class="search-form-field" id="date-out" type="text" name="date-out" placeholder="4 июля 2017">
           </p>
           <p>
-            <label for="adult">Взрослые</label>
-            <input id="adult" type="text" name="quantity" placeholder="2">
+            <label class="search-form-item" for="adult">Взрослые</label>
+            <input class="search-form-field" id="adult" type="text" name="quantity" placeholder="2">
           </p>
           <p>
-            <label for="child">Дети</label>
-            <input id="childt" type="text" name="quantity" placeholder="0">
+            <label class="search-form-item" for="child">Дети</label>
+            <input class="search-form-field" id="childt" type="text" name="quantity" placeholder="0">
           </p>
-            <button type="submit">Найти</button>
+            <button class="button" type="submit">Найти</button>
         </form>
       </section>
     </main>
-    <footer>
+
+      <footer>
       <section>
         <h2>Контактные данные</h2>
         <p>
