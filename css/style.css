@@ -9,6 +9,9 @@
   --basic-background: #888888;
 }
 
+
+
+
 /* Общие стили */
 body {
   width: 1200px;
@@ -37,6 +40,10 @@ li {
   display: none;
 }
 
+
+
+
+
 /* Хедер стили */
 
 .main-navigation {
@@ -61,6 +68,10 @@ li {
   opacity: 0.3;
 }
 
+
+
+
+
 /* welcome-container стили */
 .welcome-container {
   background-image: url("../img/bg.jpg");
@@ -73,6 +84,9 @@ li {
   left: 40px;
   top: 508px;
 }
+
+
+
 
 
 /* profit-container стили */
@@ -170,3 +184,65 @@ li {
   text-align: center;
   color: var(--basic-light-black);
 }
+
+
+
+/* hotel-container стили */
+.hotel-container {
+  width: 1200px;
+  height: 764px;
+  left: 40px;
+  top: 1878px;
+  background-color: var(--basic-white)
+}
+
+.interest {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--basic-black);
+}
+
+.interest-data {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--basic-light-black);
+}
+
+
+
+.search {
+  width: 568px;
+  height: 86px;
+  left: 356px;
+  top: 2083px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--basic-brown);
+}
+
+.search-form {
+  width: 568px;
+  height: 395px;
+  left: 356px;
+  top: 2169px;
+  background-color: var(--basic-brown)
+}
+
+/*
+.map{
+  background-image: url("../img/map.jpg");
+  width: 1199px;
+  height: 594px;
+  left: 41px;
+  top: 2144px;
+}
+*/
