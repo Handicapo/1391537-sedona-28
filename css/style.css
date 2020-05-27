@@ -166,6 +166,7 @@ li {
   height: 256px;
   left: 40px;
   top: 1622px;
+  background-color: var(--basic-light-gray);
 }
 
 .feature2-item1 .name-item, .feature2-item2 .name-item, .feature2-item3 .name-item {
@@ -188,11 +189,9 @@ li {
 
 
 /* hotel-container стили */
+
+
 .hotel-container {
-  width: 1200px;
-  height: 764px;
-  left: 40px;
-  top: 1878px;
   background-color: var(--basic-white)
 }
 
@@ -210,39 +209,69 @@ li {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
   color: var(--basic-light-black);
 }
 
-
+.search-form {
+  background-color: var(--basic-white)
+}
 
 .search {
-  width: 568px;
-  height: 86px;
-  left: 356px;
-  top: 2083px;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  text-align: center;
   background-color: var(--basic-brown);
+  color: var(--basic-white);
 }
 
-.search-form {
-  width: 568px;
-  height: 395px;
-  left: 356px;
-  top: 2169px;
-  background-color: var(--basic-brown)
+
+
+/* форма стили */
+
+.search-form label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  }
+
+
+  .search-form input {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-black);
+  }
+
+
+.search-form .search-form-field {
+  background-color: var(--basic-light-gray);
+  }
+
+
+.search-form button {
+  background-color: var(basic-light-blue);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color var(--basic-white)
 }
 
-/*
-.map{
-  background-image: url("../img/map.jpg");
-  width: 1199px;
-  height: 594px;
-  left: 41px;
-  top: 2144px;
+/* футер стили */
+
+.footer-container p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+
 }
-*/
+
+.footer-container a {
+
+text-decoration: none;
+}
